@@ -20,17 +20,19 @@ GLUON_SITE_PACKAGES := \
     gluon-status-page \
     gluon-status-page-mesh-batman-adv \
     iwinfo \
+    iw-full \
     iptables \
     haveged \
     gluon-ssid-changer \
     gluon-banner \
     gluon-check-client-mesh \
     gluon-check-mesh \
+    respondd-module-airtime \
     rsk-nightswitch \
     gluon-rsk-block-mesh \
     gluon-rsk-config \
 
-DEFAULT_GLUON_RELEASE := 2014.4-stable-2.1
+DEFAULT_GLUON_RELEASE := 2018.2.1-stable-2.1
 # Allow overriding the release number from the command line
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
